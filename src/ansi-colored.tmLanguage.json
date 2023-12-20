@@ -5,17 +5,45 @@
   "patterns": [
     {
       "comment": "foreground color",
-      "contentName": "constant.language",
+      "contentName": "constant.language fg",
       "begin": "\\x1b\\[(3|9)[0-7]m",
-      "end": "\\x1b\\[39m",
-      "name": "comment"
+      "beginCaptures": {
+        "0": {
+          "name": "comment esc"
+        }
+      },
+      "end": "(?=\\x1b)"
+    },
+    {
+      "comment": "default foreground color",
+      "begin": "\\x1b\\[39m",
+      "beginCaptures": {
+        "0": {
+          "name": "comment esc"
+        }
+      },
+      "end": "(?=\\x1b)"
     },
     {
       "comment": "background color",
-      "contentName": "string.quoted.double",
+      "contentName": "string.quoted.double bg",
       "begin": "\\x1b\\[(4|10)[0-7]m",
-      "end": "\\x1b\\[49m",
-      "name": "comment"
+      "beginCaptures": {
+        "0": {
+          "name": "comment esc"
+        }
+      },
+      "end": "(?=\\x1b)"
+    },
+    {
+      "comment": "default background color",
+      "begin": "\\x1b\\[49m",
+      "beginCaptures": {
+        "0": {
+          "name": "comment esc"
+        }
+      },
+      "end": "(?=\\x1b)"
     }
   ]
 }
