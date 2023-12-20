@@ -1,0 +1,16 @@
+{
+  "name": "ansi-textmate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "vscode-tmgrammar-test -g src/ansi-colored.tmLanguage.json test/fixtures/*"
+  },
+  "devDependencies": {
+    "vscode-tmgrammar-test": "^0.1.2"
+  },
+  "author": "",
+  "license": "ISC"
+}

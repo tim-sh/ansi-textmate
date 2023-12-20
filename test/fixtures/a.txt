@@ -1,0 +1,80 @@
+# SYNTAX TEST "source.ansi-colored" "a"
+
+  Lorem ipsum
+# ^^^^^^^^^^^ - esc fg bg
+  [30mABC[31mABC[32mABC[33mABC[34mABC[35mABC[36mABC[37mABC[39mdolor sit amet
+# ^^^^^ esc
+#      ^^^ fg - esc bg
+#         ^^^^^ esc
+#              ^^^ fg - esc bg
+#                 ^^^^^ esc
+#                      ^^^ fg - esc bg
+#                         ^^^^^ esc
+#                              ^^^ fg - esc bg
+#                                 ^^^^^ esc
+#                                      ^^^ fg - esc bg
+#                                         ^^^^^ esc
+#                                              ^^^ fg - esc bg
+#                                                 ^^^^^ esc
+#                                                      ^^^ fg - esc bg
+#                                                         ^^^^^ esc
+#                                                              ^^^ fg - esc bg
+#                                                                 ^^^^^ esc
+#                                                                      ^^^^^^^^^^^^^^ - esc fg bg
+  [90mABC[91mABC[92mABC[93mABC[94mABC[95mABC[96mABC[97mABC[39mdolor sit amet
+# ^^^^^ esc
+#      ^^^ fg - esc bg
+#         ^^^^^ esc
+#              ^^^ fg - esc bg
+#                 ^^^^^ esc
+#                      ^^^ fg - esc bg
+#                         ^^^^^ esc
+#                              ^^^ fg - esc bg
+#                                 ^^^^^ esc
+#                                      ^^^ fg - esc bg
+#                                         ^^^^^ esc
+#                                              ^^^ fg - esc bg
+#                                                 ^^^^^ esc
+#                                                      ^^^ fg - esc bg
+#                                                         ^^^^^ esc
+#                                                              ^^^ fg - esc bg
+#                                                                 ^^^^^ esc
+#                                                                      ^^^^^^^^^^^^^^ - esc fg bg
+  [40mABC[41mABC[42mABC[43mABC[44mABC[45mABC[46mABC[47mABC[49mdolor sit amet
+# ^^^^^ esc
+#      ^^^ bg - esc fg
+#         ^^^^^ esc
+#              ^^^ bg - esc fg
+#                 ^^^^^ esc
+#                      ^^^ bg - esc fg
+#                         ^^^^^ esc
+#                              ^^^ bg - esc fg
+#                                 ^^^^^ esc
+#                                      ^^^ bg - esc fg
+#                                         ^^^^^ esc
+#                                              ^^^ bg - esc fg
+#                                                 ^^^^^ esc
+#                                                      ^^^ bg - esc fg
+#                                                         ^^^^^ esc
+#                                                              ^^^ bg - esc fg
+#                                                                 ^^^^^ esc
+#                                                                      ^^^^^^^^^^^^^^ - esc fg bg
+  [100mABC[101mABC[102mABC[103mABC[104mABC[105mABC[106mABC[107mABC[49mdolor sit amet
+# ^^^^^^ esc
+#       ^^^ bg - esc fg
+#          ^^^^^^ esc
+#                ^^^ bg - esc fg
+#                   ^^^^^^ esc
+#                         ^^^ bg - esc fg
+#                            ^^^^^^ esc
+#                                  ^^^ bg - esc fg
+#                                     ^^^^^^ esc
+#                                           ^^^ bg - esc fg
+#                                              ^^^^^^ esc
+#                                                    ^^^ bg - esc fg
+#                                                       ^^^^^^ esc
+#                                                             ^^^ bg - esc fg
+#                                                                ^^^^^^ esc
+#                                                                      ^^^ bg - esc fg
+#                                                                         ^^^^^ esc
+#                                                                              ^^^^^^^^^^^^^^ - esc fg bg
