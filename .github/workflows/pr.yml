@@ -6,6 +6,8 @@ on:
 
 jobs:
   build:
+    name: PR-build
+    
     runs-on: ubuntu-latest
 
     steps:
