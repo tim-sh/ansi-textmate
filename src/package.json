@@ -1,0 +1,14 @@
+{
+  "name": "ANSI-Colored TextMate bundle",
+  "contributes": {
+    "languages": [{
+      "id": "ansi-colored",
+      "extensions": [".txt", ".log"]
+    }],
+    "grammars": [{
+      "language": "ansi-colored",
+      "scopeName": "source.ansi-colored",
+      "path": "ansi-colored.tmLanguage.json"
+    }]
+  }
+}

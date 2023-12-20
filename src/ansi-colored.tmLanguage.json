@@ -1,0 +1,21 @@
+{
+  "name": "ANSI-Colored Text Highlighting",
+  "scopeName": "source.ansi-colored",
+  "fileTypes": ["txt", "log"],
+  "patterns": [
+    {
+      "comment": "foreground color",
+      "contentName": "constant.language",
+      "begin": "\\x1b\\[(3|9)[0-7]m",
+      "end": "\\x1b\\[39m",
+      "name": "comment"
+    },
+    {
+      "comment": "background color",
+      "contentName": "string.quoted.double",
+      "begin": "\\x1b\\[(4|10)[0-7]m",
+      "end": "\\x1b\\[49m",
+      "name": "comment"
+    }
+  ]
+}
