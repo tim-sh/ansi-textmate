@@ -10,7 +10,7 @@ This bundle matches the escape sequences and assigns scope names for the escape 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-repository/ansi-textmate-bundle.git
+   git clone https://github.com/tim-sh/ansi-textmate.git
 2. **Install the Bundle:**
    1. Open your IDE or editor
    2. Install the TextMate bundle by selecting the corresponding menu entry
