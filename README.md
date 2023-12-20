@@ -1,4 +1,4 @@
-# ANSI Color Escape Syntax Highlighting for TextMate
+# ANSI Color Escape Syntax Highlighting for IDEs and Editors 
 
 ## Introduction
 
@@ -12,11 +12,11 @@ This bundle matches the escape sequences and assigns scope names for the escape 
    ```bash
    git clone https://github.com/your-repository/ansi-textmate-bundle.git
 2. **Install the Bundle:**
-   1. Open your IDE
+   1. Open your IDE or editor
    2. Install the TextMate bundle by selecting the corresponding menu entry
       - in WebStorm: *File > Settings… > Editor > TextMate Bundles > +*
    3. Select the *src* folder of this project to import the bundle.
-3. **Restart the IDE** if required for the changes to take effect.
+3. **Restart the IDE/editor** if required for the changes to take effect.
 
 ## Usage
 
