@@ -14,7 +14,7 @@ This bundle matches the escape sequences and assigns scope names for the escape 
 2. **Install the Bundle:**
    1. Open your IDE or editor
    2. Install the TextMate bundle by selecting the corresponding menu entry
-      - in WebStorm: *File > Settings… > Editor > TextMate Bundles > +*
+      - in WebStorm or IntelliJ IDEA: *File > Settings… > Editor > TextMate Bundles > +*
    3. Select the *src* folder of this project to import the bundle.
 3. **Restart the IDE/editor** if required for the changes to take effect.
 
